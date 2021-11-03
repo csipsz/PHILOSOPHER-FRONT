@@ -1,6 +1,6 @@
 class API {
 
-    static BASEURL = "http://localhost:3000/"
+    static BASEURL = "https://frontend-philosopher-api.herokuapp.com/"
 
     static loadBranches(){
         fetch(API.BASEURL + "branches")
